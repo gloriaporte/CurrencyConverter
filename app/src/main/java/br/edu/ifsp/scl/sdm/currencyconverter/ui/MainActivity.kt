@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
 
         var fromQuote = ""
         var toQuote = ""
-        val currenciesAdapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, mutableListOf<String())
+        val currenciesAdapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, mutableListOf<String>())
         with(amb) {
             fromQuoteMactv.apply {
                 setAdapter(currenciesAdapter)
