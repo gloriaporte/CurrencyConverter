@@ -6,5 +6,5 @@ import androidx.lifecycle.MutableLiveData
 
 object CurrencyConverterLiveData {
     val currenciesLiveData = MutableLiveData<CurrencyList>()
-    val conversionLiveData = MutableLiveData<ConversionResult>()
+    val conversionResultLiveData = MutableLiveData<ConversionResult>()
 }
